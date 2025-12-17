@@ -1,0 +1,11 @@
+{
+  "min_length": 14,
+  "min_upper": 1,
+  "min_lower": 1,
+  "min_digits": 1,
+  "min_symbols": 1,
+  "banned_passwords": ["password","123456","qwerty","letmein","companyname"],
+  "max_consecutive_repeats": 2,
+  "max_sequential": 3,
+  "min_entropy_bits": 60
+}
