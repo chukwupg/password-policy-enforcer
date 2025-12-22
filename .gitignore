@@ -1,25 +1,18 @@
-# Python bytecode
+# Python
 __pycache__/
 *.py[cod]
+*.egg-info/
 
 # Virtual environments
 venv/
 .env/
-.venv/
 
-# Test and coverage artifacts
-.pytest_cache/
-.coverage
-htmlcov/
+# OS
+.DS_Store
 
-# Editor and OS files
+# IDE
 .vscode/
 .idea/
-.DS_Store
-Thumbs.db
 
-# Logs
-*.log
-
-# Local policy overrides (if any)
-policy.local.json
+# Test cache
+.pytest_cache/
